@@ -1,9 +1,8 @@
 import streamlit as st
 from Front.frontend import drainage_calculation_page
-from login.login import load_users_db, login
-from login.adm_interface import admin_interface
 
-st.set_page_config(page_title="PIPE 2.0", page_icon="⏳", layout="wide")
+
+st.set_page_config(page_title="PIPE D", page_icon="⏳", layout="wide")
 
 def main():
    drainage_calculation_page()
